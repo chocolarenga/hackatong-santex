@@ -153,7 +153,7 @@ const Notes = () => {
       fetchConsultation();
     }
   }, [consultationId, user, toast]);
-
+ 
   useEffect(() => {
     if (!deepgramApiKey || !geminiApiKey) {
       toast({
